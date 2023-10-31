@@ -1,24 +1,7 @@
-variable "aws_region" {
-  default =  "eu-west-1"
-}
-
-variable "ami_id" {
-  default = "ami-785db401"
-}
-
-variable "instance_type" {
-  default = "t2.micro"
-}
-
-variable "name" {
-  default = "Provisioned by Terraform"
-}
-
 variable "aws_access_key" {
-    default = "AKIA42AEBCA6BV5UJSDM"
+    default = "AKIA42AEBCA6HA7DJC2U"
 }
 
-variable "aws_secret_access_key" {
-  default = "FZMdTO6gfCr1e3l1QGSH64SH0hdS0yADVbRrBEjy"
+variable "aws_secret_key" {
+  default = "rLfG+IjFZt7ZG27H8emQUJyINluNlttlu7LJHup7"  
 }
-
